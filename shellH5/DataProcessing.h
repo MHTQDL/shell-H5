@@ -1,0 +1,15 @@
+//
+//  DataProcessing.h
+//  test
+//
+//  Created by SpawNmHt7nOthing on 2016/11/28.
+//  Copyright © 2016Year SpawNmHt7nOthing. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface DataProcessing : NSObject
+- (NSString*)objectForKey:(NSString *)aKey;
+- (void)setObject:(NSString *)anObject forKey:(NSString *) aKey;
++(instancetype) manageCenter;
+@end
